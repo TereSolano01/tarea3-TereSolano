@@ -1,0 +1,166 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: xxx-large;
+    font-variant-caps: small-caps;
+    letter-spacing: 6px;
+    word-spacing: 4px;
+    font-family: serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: 'Neuton';
+    font-size: 20px;
+    margin-top: 0;
+}
+
+li::marker {
+    display: none;
+    color: white;
+}
+
+a{
+    font-size: large;
+    font-weight: 600;
+    list-style: none;
+    color: black;
+    text-decoration: solid;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px;
+    width: 50%;
+    margin-right: 16%;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 11%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+img{
+    height: 200px;
+    width: auto;
+    margin-bottom: 16px;
+}
+
+.goto{
+    padding: 0;
+    margin: 0;
+    text-align: initial;
+    margin-left: 5%;
+    font-family: system-ui;
+    font-size: smaller;
+    margin-top: 5px;
+    font-variant-caps: all-small-caps;
+    align-self: flex-end;
+}
+
+.goto i {
+    vertical-align: middle;
+}
+
+.goto a {
+    line-height: 1;
+}
+ul {
+    padding-top: 2%;
+    padding: 0;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 0 auto; 
+    width: 70%;
+    margin-top: 1.3%;
+}
+li{
+    text-align: center;
+}
+
+  .row {
+    display: flex;
+  }
+  
+  .columns {
+    flex: 1;
+  }
+  
+  .song-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .song-info {
+    margin-top: 20px;
+  }
+  
+  .song-info p {
+    margin: 8px 0;
+  }
+
+  .song-info strong {
+    margin-right: 8px; 
+  }
+  
+  .song-info p {
+    margin-bottom: 8px;
+  }
+
+  .song-card[data-v-25bde195] {
+    background-color: #ffffff;
+    padding: 43px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 11px rgb(0 0 0);
+    margin-top: 67px;
+    margin-bottom: 67px;
+}
+
+.centered {
+    margin: 0 auto; 
+    border-collapse: separate;
+    border-spacing: 54px 8px;
+  }
+
+  .bold {
+    font-weight: bold;
+      font-size: x-large;
+  }
